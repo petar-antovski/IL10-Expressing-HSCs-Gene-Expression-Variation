@@ -20,9 +20,9 @@
 - Perform one vs the rest DGEA between IL10 HSCs, IL10ra HSCs, and DN HSCs for each group type.
 - Perform pairwise DGEA between IL10 HSCs, IL10ra HSCs, and DN HSCs for each group type.
 - Perform GO analysis on upregulated and downregulated genes from the pairwise DGEA for each group type.
-### All Cell Types tSNE
-![image](https://user-images.githubusercontent.com/112181040/203364243-f5743e39-5a56-4b54-a2c0-5160615e5b39.png)
-### All Cell Types UMAP
+### Old Naive All Cell Types tSNE
+![image](https://user-images.githubusercontent.com/112181040/203366708-9a753a9d-60f2-4b1c-a8b6-89394fc6b604.png)
+### Old Naive All Cell Types UMAP
 ![image](https://user-images.githubusercontent.com/112181040/203364268-05ef6375-6a6a-4ffd-b075-7328f1aa8563.png)
 ### GSEA for Old Naive HSCs between IL10 HSCs, IL10ra HSCs, and DN HSCs (performed between each HSC group for each group type against several databases)
 ![image](https://user-images.githubusercontent.com/112181040/203365360-49b7d123-764f-48df-a007-e2b3cb237db7.png)
