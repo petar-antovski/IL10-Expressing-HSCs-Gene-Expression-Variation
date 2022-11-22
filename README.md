@@ -3,18 +3,18 @@
 ## Samples
 - HSPCs were isolated from young naive, young transplanted, old naive and old transplanted mice and submitted for RNA sequencing.
 
-## Data Preprocessing
+## Data Preprocessing Using Scanpy in Python
 - Samples for each type are combined before any pre-processing.
 - Ambient RNA removal was determined to improve downstream analysis.
 - Remove genes expressed in less than 3 cells and remove cells with less than 200 genes expressed.
 - Remove cells with mitochondrial gene percentage higher than 10% and cells with ribosomal gene percentage las than 5%.
 - Remove mitochondrial, Gm42418 and Malat1 as these are all the most highly expressed genes and are only used for previous QC steps and not necessary for downstream steps.
-- No batch correction was performed as this yielded best results in terms of UMAP and downstream Gene Set Enrichment Analysis (GSEA), Differential Gene Expression Analysis (DGEA) and Gene Ontology (GO) analysis.
+- No batch correction was performed as this yielded the best results in terms of UMAP and downstream Gene Set Enrichment Analysis (GSEA), Differential Gene Expression Analysis (DGEA) and Gene Ontology (GO) analysis.
 
-## Cell Annotation
+## Cell Annotation Using SingleR in R
 - Use raw reacds for transcription based cell annotation with SingleR package using R.
 
-## Data Analysis and Visualization
+## Data Analysis and Visualization Using Scanpy in Python
 - Compute tSNE plot and UMAP using raw counts on all cell types for each group type.
 - Perform GSEA on the IL10 expressing HSCs (IL10 HSCs), IL10 receptor epxressing HSCs (IL10ra HSCs), and double negative HSCs (DN HSCs) for each group type.
 - Perform one vs the rest DGEA between IL10 HSCs, IL10ra HSCs, and DN HSCs for each group type.
