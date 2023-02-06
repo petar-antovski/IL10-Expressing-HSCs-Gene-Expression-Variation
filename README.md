@@ -1,4 +1,4 @@
-# IL10-Expressing-HSCs-Gene-Expression-Variation
+# IL10 Expressing HSCs Gene Expression Variation
 
 ## Samples
 - HSPCs were isolated from young naive, young transplanted, old naive and old transplanted mice and submitted for RNA sequencing.
